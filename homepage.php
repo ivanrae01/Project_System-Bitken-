@@ -7,15 +7,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
-    <link rel="stylesheet" href="css/homestyle.css" >
+    <link rel="stylesheet" href="mainstyle.css" >
     <link rel="stylesheet" href="assets/fontawesome/css/all.css" >
 
     <title> Homepage </title>
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #43a5eb;" >
-      <a class="navbar-brand" href="#"><img src="img/bitken.png" class="img-fluid" width="150" height="150" class="image"></a>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f87ec9">
+      <a class="navbar-brand" href="#"><img src="img/bitken.png" class="img-fluid" width="150" height="160" class="image"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -23,22 +23,22 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="homepage.php"><p class="font-weight-bold"> Home </p> <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="homepage.php"><p class="font-weight-bold" class="form-control mr-2"> Home </p> <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="reviewer.php"><p class="font-weight-bold"> Reviewer </p> </a>
+          <li class="nav-item active">
+            <a class="nav-link" href="reviewer.php"><p class="font-weight-bold"> Subject </p> </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="php/features.php"> <p class="font-weight-bold"> Features </p> </a>
+          <li class="nav-item active">
+            <a class="nav-link" href="php/features.php"> <p class="font-weight-bold"> Test </p> </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="php/aboutus.php"> <p class="font-weight-bold"> About Us </p> </a>
+          <li class="nav-item active">
+            <a class="nav-link" href="logout.php?logout='1'" > <p class="font-weight-bold"> Logout </p></a> 
           </li>
         </ul>
       </div>
     </nav>
 
-  <div class="container-fluid">  
+  <!-- <div class="container-fluid">  
     <div class="row">
       <div class="col-md-12">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -55,14 +55,24 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+    <header class="site-header clearfix">
+    <section>
+      <div class="leftside"> 
+          <img src="img/girl1.jpg">
+      </div>
+      <div class="rightside"> 
+          <h1>BITKEN</h1>
+          <p >  Study Aesthetically with us! </p>
+          <button>Welcome</button>
+      </div>
+    </section>
+    </header>
 
-    <div class="row pt-2 text-light" id="footer">
+    <div class="row pt-2 text-light" id="footer" style="background-color: #f87ec9" >
       <div class="col-md-8 offset-md-2">
         <div class="row">
-          <div class="col-md-6 mb-2"> <center><img src="img/bitken.png" width="150" height="150" class="img-fluid"></center>
-          </div>
-          <div class="col-md-6 mt-2"> <center> Allrights Resevered 2021 </center> </div>
+          <div class="col-md-12 mb-2"> <center> Allrights Resevered 2021 </center> </div>
           <!-- <div class="col-md-4"> 
             <i class="fab fa-twitter-square" style="font-size: 50px;"></i>
             <i class="fab fa-twitter-square" style="font-size: 50px;"></i>
