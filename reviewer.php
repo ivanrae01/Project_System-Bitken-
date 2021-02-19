@@ -15,7 +15,7 @@
   <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #43a5eb;" >
-      <a class="navbar-brand" href="#"><img src="bitken.png" width="150" height="150" class="img-fluid" ></a>
+      <a class="navbar-brand" href="#"><img src="img/bitken.png" width="150" height="150" class="img-fluid" ></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -96,7 +96,7 @@
     <div class="row pt-2 text-light" id="footer">
       <div class="col-md-8 offset-md-2">
         <div class="row">
-          <div class="col-md-6 mb-2"> <center><img src="bitken.png" width="150" height="150" class="img-fluid"> </center>
+          <div class="col-md-6 mb-2"> <center><img src="img/bitken.png" width="150" height="150" class="img-fluid"> </center>
           </div>
           <div class="col-md-6 mt-2"> <center> Allrights Resevered 2021 </center> </div>
           <!-- <div class="col-md-4"> 
