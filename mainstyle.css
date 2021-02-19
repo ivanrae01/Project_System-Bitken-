@@ -8,58 +8,43 @@
     background: url(backs.jpg) no-repeat;
     background: linear-gradient(to right, #81b5fa, #f792d9 ); 
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
-
 }
-
 
 nav{
     display: flex; 
-    justify-content: space-around;
+    justify-content: end;
     align-items: center;
     min-height: 10%;
     background-color: #f783b1; 
-    font-family: 'Indie Flower', cursive; 
-    
-    
 }
 
-.logo{
-    width: 50%;
-    height: 100px;
-}
-
-.logo h1{
-    line-height: 120px;
-    padding-left: 50px;
-}
 
 .menu{
     width: 50%; height: 130px;
 }
 
-.menu ul{
-    width: 100%;
-    height: 130px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items:  center;
-}
-
-.menu ul li{
-    list-style: none;
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
 
 section{ display: flex;  }
 
-.leftside { width: 45%; height: auto; overflow: hidden; margin-top: 20px;}
+.leftside { 
+    width: 45%; 
+    height: auto; 
+    overflow: hidden; 
+    margin-top: 20px;}
 
-.leftside img{  width: 600px;  height: 500px; margin-left: 10%; padding: 5%;}
+.leftside img{  
+    width: 600px;  
+    height: 500px; 
+    margin-left: 10%; 
+    padding: 5%;}
 
-.rightside{ width: 55%; height: 300px; color: white; text-align: center; margin-top: 60px; padding: 40px;}
+.rightside{ 
+    width: 55%; 
+    height: 300px; 
+    color: white; 
+    text-align: center; 
+    margin-top: 60px; 
+    padding: 40px;}
 
 .rightside h1{ text-align: center;
     color: #ffffff;
