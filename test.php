@@ -7,20 +7,20 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
-    <link rel="stylesheet" href="mainstyle.css" >
+    <link rel="stylesheet" href="css/homestyle.css" >
     <link rel="stylesheet" href="assets/fontawesome/css/all.css" >
 
     <title> Homepage </title>
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f87ec9">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f87ec9">
       <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid" width="50" height="50" class="image"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarNav" >
+      <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="homepage.php"><p class="font-weight-bold" class="form-control mr-2"> Home </p> <span class="sr-only">(current)</span></a>
@@ -38,50 +38,20 @@
       </div>
     </nav>
 
-  <!-- <div class="container-fluid">  
-    <div class="row">
-      <div class="col-md-12">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="bg.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="bg1.jpg" class="d-block w-100" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="bg2.jpg" class="d-block w-100" alt="...">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    <header class="site-header clearfix">
-    <section>
-      <div class="leftside"> 
-          <img src="img/girl1.jpg">
-      </div>
-      <div class="rightside"> 
-          <h1>BITKEN</h1>
-          <p >  Study Aesthetically with us! </p>
-          <button>Welcome</button>
-      </div>
-    </section>
-    </header>
-
+    
     <div class="row pt-2 text-light" id="footer" style="background-color: #f87ec9" >
       <div class="col-md-8 offset-md-2">
         <div class="row">
-          <div class="col-md-12 mb-2"> <center> Allrights Resevered 2021 </center> </div>
-          <!-- <div class="col-md-4"> 
-            <i class="fab fa-twitter-square" style="font-size: 50px;"></i>
-            <i class="fab fa-twitter-square" style="font-size: 50px;"></i>
-            <i class="fab fa-twitter-square" style="font-size: 50px;"></i>
-          </div> -->
+          <div class="col-md-12 mb-2"> <center> Allrights Resevered 2021 </center>
+         </div>
         </div>
       </div>
-     </div> 
-    </div>
+    </div>   
+
+ 
+
+    
+    </div>  
   </div>
 
 

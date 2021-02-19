@@ -15,7 +15,7 @@
   <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f87ec9">
-      <a class="navbar-brand" href="#"><img src="img/bitken.png" class="img-fluid" width="150" height="160" class="image"></a>
+      <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid" width="50" height="50" class="image"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -29,7 +29,7 @@
             <a class="nav-link" href="reviewer.php"><p class="font-weight-bold"> Subject </p> </a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="php/features.php"> <p class="font-weight-bold"> Test </p> </a>
+            <a class="nav-link" href="test.php"> <p class="font-weight-bold"> Test </p> </a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="logout.php?logout='1'" > <p class="font-weight-bold"> Logout </p></a> 
@@ -69,40 +69,15 @@
       </div>
     </div>
   </div>
-                <!-- <div class="row">
-                  <div class="col-3">
-                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Create a reviewer</a>
-                      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Test</a>
-                      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-                      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-                    </div>
-                  </div>
-                  <div class="col-9">
-                    <div class="tab-content" id="v-pills-tabContent">
-                      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"></div>
-                      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"></div>
-                      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"></div>
-                      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"></div>
-                    </div>
-                  </div>
-                </div>
-             -->
-      <!-- </div>
-    </div> -->
 
     <div class="row pt-2 text-light" id="footer" style="background-color: #f87ec9" >
       <div class="col-md-8 offset-md-2">
         <div class="row">
-          <div class="col-md-12 mb-2"> <center> Allrights Resevered 2021 </center> </div>
-          <!-- <div class="col-md-4"> 
-            <i class="fab fa-twitter-square" style="font-size: 50px;"></i>
-            <i class="fab fa-twitter-square" style="font-size: 50px;"></i>
-            <i class="fab fa-twitter-square" style="font-size: 50px;"></i>
-          </div> -->
+          <div class="col-md-12 mb-2"> <center> Allrights Resevered 2021 </center>
+         </div>
         </div>
       </div>
-     </div>   
+    </div>   
 
  
 
