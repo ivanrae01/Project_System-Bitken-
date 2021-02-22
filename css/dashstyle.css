@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: #23242b;
+    color:white;
+}
+
+.uname {
+    font-size: 20px;
+    padding-left: 17px;
+}
+
+.uname b {
+    color: #127b8e;
+}
+
+.header i {
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff
+}
+
+.header i:hover{
+    color: #127b8e;
+}
+
+.userp{
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+.userp img {
+    width: 100px;
+    border-radius: 100%;
+}
+
+.userp h4 {
+    color: #fff;
+    padding: 5px 0px;
+}
+
+.side-bar {
+    width: 250px;
+    background: black;
+    min-height: 100vh;
+}
+
+.body {
+    display: flex;
+}
+
+.section-1 {
+    width: 100%;
+    background: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-1 h1 {
+    color:black;
+    font-size: 60px;
+}
+
+.section-1 p {
+    color: #ccc;
+    font-size: 20px;
+    background: #fff;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+.side-bar ul{
+    margin-top: 20px;
+    list-style: none;
+}
+.side-bar ul li {
+    font-size: 16px;
+    padding: 15px 0px;
+    padding-left: 20px;
+}
+
+.side-bar ul li:hover {
+    background:  #12aff8;
+    background-size: cover;
+}
+
+.side-bar ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.side-bar ul li a i {
+    display: inline-block;
+    padding-right: 10px;
+    font-size: 23px;
+}

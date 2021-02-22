@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color:   #12aff8;
+   height: 10vh;
+   align-items: center;
+
+}
+.logo{
+    position: relative;
+    font-size: 33px;
+    font-weight:bold;
+    color: white;
+}
+.navlinks ul{
+   display: flex;
+
+}
+.navlinks li{
+    margin: 25px;
+    font-size: 20px;
+    list-style: none;
+}
+.navlinks li a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background: black;
+    padding: 6px;
+    border-radius: 15px;
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+}

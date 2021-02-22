@@ -8,13 +8,26 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" >
     <link rel="stylesheet" href="css/homestyle.css" >
+    <link rel="stylesheet" href="nav.css" >
     <link rel="stylesheet" href="assets/fontawesome/css/all.css" >
 
     <title> Homepage </title>
   </head>
   <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f87ec9">
+  <header>
+        <div class="logo"> <h1 style="font-size: 100%; margin-bottom: 2%;"> BITKEN</h1> </div>
+        <div class="navlinks">
+            <ul>
+            <li><a href="homepage.php">Home</a></li>
+                <li><a href="subject.php">Subjects</a></li>
+                <li><a href="quiz.php">Quiz</a></li>
+                <li><a href="logout.php?logout='1'"> Logout</a></li> 
+            </ul>
+        </div>
+    </header>
+
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #f87ec9">
       <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid" width="50" height="50" class="image"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -26,50 +39,39 @@
             <a class="nav-link" href="homepage.php"><p class="font-weight-bold" class="form-control mr-2"> Home </p> <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="reviewer.php"><p class="font-weight-bold"> Subject </p> </a>
+            <a class="nav-link" href="subject.php"><p class="font-weight-bold"> Subject </p> </a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="test.php"> <p class="font-weight-bold"> Test </p> </a>
+            <a class="nav-link" href="quiz.php"> <p class="font-weight-bold"> Quiz </p> </a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="logout.php?logout='1'" > <p class="font-weight-bold"> Logout </p></a> 
           </li>
         </ul>
       </div>
-    </nav>
+    </nav> -->
 
-  <div class="container-fluid">
-    <!-- <div class="row">
-      <div class="col-md-12"> -->
-                <!-- <img src="bg1.jpg" class="d-block w-100" alt="..."> -->
-                
-    <div class="p-5 text-center bg-image" style="background-image: url(bg.jpg); height: 400px;">
-    <div class="mask" style="background-color: rgba(0, 0, 0, 0.411)">
-      <div class="d-flex justify-content-center align-items-center h-100">
+    <div class="container-fluid">  
         <div class="row">
-                  <div class="col-3">
-                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Create a reviewer</a>
-                      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Test</a>
-                      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-                      <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+            <div class="col-md-12">
+                 <div class="panel"> 
+                     <div class="table-responsive"> 
+                        <table class="table table-striped title1">
+                            <tr>
+                                <td><b>S.N.</b></td>
+                                <td><b>Topic</b></td>
+                                <td><b>Total question</b></td>
+                                <td><b>Marks</b></td>
+                                <td><b>Time limit</b></td>
+                                <td></td>
+                            </tr>
+                        </table>
                     </div>
-                  </div>
-                  <div class="col-9">
-                    <div class="tab-content" id="v-pills-tabContent">
-                      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab"></div>
-                      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab"></div>
-                      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab"></div>
-                      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab"></div>
-                    </div>
-                  </div>
-                </div>
-        
-        </div>
-      </div>
-    </div>
-  </div>
-
+                </div>      
+                
+      
+                
+    
     <div class="row pt-2 text-light" id="footer" style="background-color: #f87ec9" >
       <div class="col-md-8 offset-md-2">
         <div class="row">
