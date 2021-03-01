@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -7,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="../css/bootstrap.min.css" >
-    <link rel="stylesheet" href="../css/homestyle.css" >
-    <link rel="stylesheet" href="../css/tablestyle.css" >
-    <link rel="stylesheet" href="../css/dashstyle.css" >
-    <link rel="stylesheet" href="../nav.css" >
-    <link rel="stylesheet" href="../assets/fontawesome/css/all.css" >
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="css/homestyle.css" >
+    <link rel="stylesheet" href="css/tablestyle.css" >
+    <link rel="stylesheet" href="css/dashstyle.css" >
+    <link rel="stylesheet" href="nav.css" >
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css" >
 
-    <title> Comment </title>
+    <title> C++ </title>
   </head>
   <body>
 
@@ -23,10 +22,10 @@
         <div class="logo"> <h1 style="font-size: 100%; margin-bottom: 2%;"> BITKEN</h1> </div>
         <div class="navlinks">
             <ul>
-            <li><a href="../homepage.php">Home</a></li>
-                <li><a href="../subject.php">Subjects</a></li>
-                <li><a href="../quiz.php">Quiz</a></li>
-                <li><a href="../logout.php?logout='1'"> Logout</a></li> 
+            <li><a href="homepage.php">Home</a></li>
+                <li><a href="subject.php">Subjects</a></li>
+                <li><a href="quiz.php">Quiz</a></li>
+                <li><a href="logout.php?logout='1'"> Logout</a></li> 
             </ul>
         </div>
     </header>
@@ -42,51 +41,33 @@
             </div>
             <ul>
                 <li>
-                    <a href="../subjects/java1.php">
-                        <span> What is Java Language ? </span>
+                    <a href="subjects/cplus.php">
+                        <span> What is C++ ? </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java2.php">
-                        <span> Print Line </span>
+                    <a href="subjects/cplus2.php">
+                        <span> Why use C++ </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java3.php">
-                        <span> Comment </span>
+                    <a href="subjects/cplus3.php">
+                        <span> C++ Program Structure </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java4.php"">
-                        <span> Main() Method </span>
-                       
-                    </a>
-                </li>
-                <li>
-                    <a href="../subjects/java5.php">
-                        <span> Classes </span>
-                       
-                    </a>
-                </li>
-                <li>
-                    <a href="../subjects/java6.php">
-                        <span> Compiling, Whitespace, Statements </span>
+                    <a href="subjects/cplus4.php"">
+                        <span> C++ Variables </span>
                        
                     </a>
                 </li>
             </ul>
         </nav>
     <section class="section-1">
-    <?php
-    echo nl2br (" Comment\n
-    -   Comments are bits of text that are ignored by the compiler. They are used to increase the readability of a program.\n
-    -   Single line comments are created by using //. \n
-    -   Multi-line comments are created by starting with /* and ending with */. \n \n  ");
-?>
-
+        <h1>WELCOME</h1>
     </section>    
 </div>
 
@@ -102,11 +83,11 @@
   <div class="row pt-2 text-light" id="footer" style="background-color: #12aff8" >
       <div class="col-md-8 offset-md-2">
         <div class="row">
-          <div class="col-md-12 mb-2"> <center> Allrights Resevered 2021 </center> 
+          <div class="col-md-12 mb-2"> <center> Allrights Resevered 2021 </center>
           </div>
         </div>
       </div>
-    </div>  
+  </div> 
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -122,4 +103,3 @@
     -->
   </body>
 </html>
-

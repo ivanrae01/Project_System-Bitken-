@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -14,7 +13,7 @@
     <link rel="stylesheet" href="../nav.css" >
     <link rel="stylesheet" href="../assets/fontawesome/css/all.css" >
 
-    <title> Comment </title>
+    <title> C++ Program Strucutre </title>
   </head>
   <body>
 
@@ -42,38 +41,26 @@
             </div>
             <ul>
                 <li>
-                    <a href="../subjects/java1.php">
-                        <span> What is Java Language ? </span>
+                    <a href="../subjects/cplus.php">
+                        <span> What is C++ ? </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java2.php">
-                        <span> Print Line </span>
+                    <a href="../subjects/cplus2.php">
+                        <span> Why use C++ </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java3.php">
-                        <span> Comment </span>
+                    <a href="../subjects/cplus3.php">
+                        <span> C++ Program Structure </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java4.php"">
-                        <span> Main() Method </span>
-                       
-                    </a>
-                </li>
-                <li>
-                    <a href="../subjects/java5.php">
-                        <span> Classes </span>
-                       
-                    </a>
-                </li>
-                <li>
-                    <a href="../subjects/java6.php">
-                        <span> Compiling, Whitespace, Statements </span>
+                    <a href="../subjects/cplus4.php">
+                        <span> C++ Variables </span>
                        
                     </a>
                 </li>
@@ -81,12 +68,14 @@
         </nav>
     <section class="section-1">
     <?php
-    echo nl2br (" Comment\n
-    -   Comments are bits of text that are ignored by the compiler. They are used to increase the readability of a program.\n
-    -   Single line comments are created by using //. \n
-    -   Multi-line comments are created by starting with /* and ending with */. \n \n  ");
+    echo nl2br (" C++ Program Structure\n \n
+    -   The C++ language defines several headers, which contain information that is either necessary or useful to your program. For this program, the header <iostream> is needed.\n
+    -   The line using namespace std; tells the compiler to use the std namespace. Namespaces are a relatively recent addition to C++.\n
+    -   The next line ' main() is where program execution begins.' is a single-line comment available in C++. Single-line comments begin with // and stop at the end of the line.\n
+    -   The line int main() is the main function where program execution begins.\n
+    -   The next line cout << Hello World; causes the message Hello World to be displayed on the screen.\n
+    -   The next line return 0; terminates main( )function and causes it to return the value 0 to the calling process.\n");
 ?>
-
     </section>    
 </div>
 
@@ -106,7 +95,7 @@
           </div>
         </div>
       </div>
-    </div>  
+    </div> 
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -122,4 +111,7 @@
     -->
   </body>
 </html>
+
+
+
 

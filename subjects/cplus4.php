@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -14,7 +13,7 @@
     <link rel="stylesheet" href="../nav.css" >
     <link rel="stylesheet" href="../assets/fontawesome/css/all.css" >
 
-    <title> Comment </title>
+    <title> C++ variables </title>
   </head>
   <body>
 
@@ -42,38 +41,26 @@
             </div>
             <ul>
                 <li>
-                    <a href="../subjects/java1.php">
-                        <span> What is Java Language ? </span>
+                    <a href="../subjects/cplus.php">
+                        <span> What is C++ ? </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java2.php">
-                        <span> Print Line </span>
+                    <a href="../subjects/cplus2.php">
+                        <span> Why use C++ </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java3.php">
-                        <span> Comment </span>
+                    <a href="../subjects/cplus3.php">
+                        <span> C++ Program Structure </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java4.php"">
-                        <span> Main() Method </span>
-                       
-                    </a>
-                </li>
-                <li>
-                    <a href="../subjects/java5.php">
-                        <span> Classes </span>
-                       
-                    </a>
-                </li>
-                <li>
-                    <a href="../subjects/java6.php">
-                        <span> Compiling, Whitespace, Statements </span>
+                    <a href="../subjects/cplus4.php">
+                        <span> C++ Variables </span>
                        
                     </a>
                 </li>
@@ -81,12 +68,18 @@
         </nav>
     <section class="section-1">
     <?php
-    echo nl2br (" Comment\n
-    -   Comments are bits of text that are ignored by the compiler. They are used to increase the readability of a program.\n
-    -   Single line comments are created by using //. \n
-    -   Multi-line comments are created by starting with /* and ending with */. \n \n  ");
-?>
+    echo nl2br (" C++ Variables\n
+        \n
+        Variables are containers for storing data values\n
+        -   int - stores integers (whole numbers), without decimals, such as 123 or -123\n
+        -   double - stores floating point numbers, with decimals, such as 19.99 or -19.99\n
+        -   char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes\n
+        -   string - stores text, such as Hello World. String values are surrounded by double quotes\n
+        -   bool - stores values with two states: true or false\n
 
+        ");
+
+?>
     </section>    
 </div>
 
@@ -106,7 +99,7 @@
           </div>
         </div>
       </div>
-    </div>  
+    </div> 
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -122,4 +115,8 @@
     -->
   </body>
 </html>
+
+
+
+
 

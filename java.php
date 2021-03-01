@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="nav.css" >
     <link rel="stylesheet" href="assets/fontawesome/css/all.css" >
 
-    <title> PHP </title>
+    <title> JAVA </title>
   </head>
   <body>
 

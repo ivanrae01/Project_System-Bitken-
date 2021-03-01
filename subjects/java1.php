@@ -98,15 +98,14 @@
 
 
 
-  <div class="row pt-2 text-light" id="footer" style="background-color: #f87ec9" >
+  <div class="row pt-2 text-light" id="footer" style="background-color: #12aff8" >
       <div class="col-md-8 offset-md-2">
         <div class="row">
-          <div class="col-md-12 mb-2"> <center> Allrights Resevered 2021 </center>
+          <div class="col-md-12 mb-2"> <center> Allrights Resevered 2021 </center> 
           </div>
         </div>
       </div>
-  </div> 
-
+    </div> 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

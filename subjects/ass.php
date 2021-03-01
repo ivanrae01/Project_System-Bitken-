@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -14,7 +13,7 @@
     <link rel="stylesheet" href="../nav.css" >
     <link rel="stylesheet" href="../assets/fontawesome/css/all.css" >
 
-    <title> Comment </title>
+    <title> What is Assembly? </title>
   </head>
   <body>
 
@@ -41,39 +40,21 @@
                 <h4>Topics</h4>
             </div>
             <ul>
-                <li>
-                    <a href="../subjects/java1.php">
-                        <span> What is Java Language ? </span>
+            <li>
+                    <a href="../subjects/ass.php">
+                        <span> What is Assembly? </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java2.php">
-                        <span> Print Line </span>
+                    <a href="../subjects/ass2.php">
+                        <span> Comments, Statements </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java3.php">
-                        <span> Comment </span>
-                       
-                    </a>
-                </li>
-                <li>
-                    <a href="../subjects/java4.php"">
-                        <span> Main() Method </span>
-                       
-                    </a>
-                </li>
-                <li>
-                    <a href="../subjects/java5.php">
-                        <span> Classes </span>
-                       
-                    </a>
-                </li>
-                <li>
-                    <a href="../subjects/java6.php">
-                        <span> Compiling, Whitespace, Statements </span>
+                    <a href="../subjects/ass3.php">
+                        <span> Syntax of Assembly </span>
                        
                     </a>
                 </li>
@@ -81,12 +62,31 @@
         </nav>
     <section class="section-1">
     <?php
-    echo nl2br (" Comment\n
-    -   Comments are bits of text that are ignored by the compiler. They are used to increase the readability of a program.\n
-    -   Single line comments are created by using //. \n
-    -   Multi-line comments are created by starting with /* and ending with */. \n \n  ");
-?>
+    echo nl2br (" What is Assembly?\n
+    -   Is a type of low-level programming language that is intended to communicate 
+    directly with a computer’s hardware.\n
+    -   Is a type of programming language that translates high-level languages into machine language.\n
+    \n
+    Assembly Syntax\n
+    An assembly program can be divided into three sections\n
+    -   The data section\n
+    -   The bss section\n
+    -   The text section. \n 
+    \n
+    The data Section\n
+    -   The data section is used for declaring initialized data or constants. This data does not change at runtime
+    -   The syntax for declaring data section is section.data\n
+    \n
+    The bss Section\n
+    -   The bss section is used for declaring variables. The syntax for declaring bss section is section.bss\n
+    The text section\n
+    -   The text section is used for keeping the actual code. 
+    This section must begin with the declaration global _start, which tells the 
+    kernel where the program execution begins.\n
+    -   The syntax for declaring text section is section.text global _start _start:\n
+    ");
 
+    ?>
     </section>    
 </div>
 
@@ -106,8 +106,8 @@
           </div>
         </div>
       </div>
-    </div>  
-
+    </div> 
+    
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

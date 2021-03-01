@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../nav.css" >
     <link rel="stylesheet" href="../assets/fontawesome/css/all.css" >
 
-    <title> Comment </title>
+    <title> What is Python? </title>
   </head>
   <body>
 
@@ -41,39 +41,33 @@
                 <h4>Topics</h4>
             </div>
             <ul>
-                <li>
-                    <a href="../subjects/java1.php">
-                        <span> What is Java Language ? </span>
+            <li>
+                    <a href="../subjects/python1.php">
+                        <span> What is Python? </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java2.php">
-                        <span> Print Line </span>
+                    <a href="../subjects/python2.php">
+                        <span> What can Python do?</span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java3.php">
-                        <span> Comment </span>
+                    <a href="../subjects/python3.php">
+                        <span> Why Python? </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java4.php"">
-                        <span> Main() Method </span>
+                    <a href="../subjects/python4.php"">
+                        <span> Python Indentation, Variables, Comments </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java5.php">
-                        <span> Classes </span>
-                       
-                    </a>
-                </li>
-                <li>
-                    <a href="../subjects/java6.php">
-                        <span> Compiling, Whitespace, Statements </span>
+                    <a href="../subjects/python5.php">
+                        <span> Python Numbers </span>
                        
                     </a>
                 </li>
@@ -81,12 +75,14 @@
         </nav>
     <section class="section-1">
     <?php
-    echo nl2br (" Comment\n
-    -   Comments are bits of text that are ignored by the compiler. They are used to increase the readability of a program.\n
-    -   Single line comments are created by using //. \n
-    -   Multi-line comments are created by starting with /* and ending with */. \n \n  ");
+    echo nl2br ("Python\n
+    \n
+    -   It was designed by Guido van Rossum in 1991 and developed by Python Software Foundation.
+    -   It is used for web development, software development, mathematicd, and system scripting.
+    -   It was designed as a response to the ABC programming language that was also foregrounded in the Netherlands.\n
+    -   Python is not named after the snake. It’s named after the British TV show Monty Python.\n
+    ");    
 ?>
-
     </section>    
 </div>
 
@@ -106,7 +102,7 @@
           </div>
         </div>
       </div>
-    </div>  
+    </div> 
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -122,4 +118,5 @@
     -->
   </body>
 </html>
+
 

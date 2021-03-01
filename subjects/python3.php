@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../nav.css" >
     <link rel="stylesheet" href="../assets/fontawesome/css/all.css" >
 
-    <title> Comment </title>
+    <title> Why Python? </title>
   </head>
   <body>
 
@@ -41,52 +41,48 @@
                 <h4>Topics</h4>
             </div>
             <ul>
-                <li>
-                    <a href="../subjects/java1.php">
-                        <span> What is Java Language ? </span>
+            <li>
+                    <a href="../subjects/python1.php">
+                        <span> What is Python? </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java2.php">
-                        <span> Print Line </span>
+                    <a href="../subjects/python2.php">
+                        <span> What can Python do?</span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java3.php">
-                        <span> Comment </span>
+                    <a href="../subjects/python3.php">
+                        <span> Why Python? </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java4.php"">
-                        <span> Main() Method </span>
+                    <a href="../subjects/python4.php"">
+                        <span> Python Indentation, Variables, Comments </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java5.php">
-                        <span> Classes </span>
+                    <a href="../subjects/python5.php">
+                        <span> Python Numbers </span>
                        
                     </a>
-                </li>
-                <li>
-                    <a href="../subjects/java6.php">
-                        <span> Compiling, Whitespace, Statements </span>
-                       
-                    </a>
-                </li>
+                </li>            
             </ul>
         </nav>
     <section class="section-1">
     <?php
-    echo nl2br (" Comment\n
-    -   Comments are bits of text that are ignored by the compiler. They are used to increase the readability of a program.\n
-    -   Single line comments are created by using //. \n
-    -   Multi-line comments are created by starting with /* and ending with */. \n \n  ");
+    echo nl2br ("Why Python?\n
+    -   Python works on different platforms (Windows, Mac, Linux, Raspberry Pi).\n
+    -   Python has a simple syntax similar to the English language.\n
+    -   Python has syntax that allows developers to write programs with fewer lines than some other programming languages.\n
+    -   Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.\n
+    -   Python can be treated in a procedural way, an object-oriented way or a functional way.\n 
+    ");
 ?>
-
     </section>    
 </div>
 
@@ -106,7 +102,7 @@
           </div>
         </div>
       </div>
-    </div>  
+    </div> 
 
     <!-- Optional JavaScript; choose one of the two! -->
 

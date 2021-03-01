@@ -76,7 +76,7 @@
           </tr>
           <tr>
             <th scope="col">2</th>
-            <td> <a href="subjects/math.php"> C++ </a> </td>
+            <td> <a href="c-plus.php"> C++ </a> </td>
           </tr>
           <tr>
             <th scope="col">3</th>
@@ -84,7 +84,11 @@
           </tr>
           <tr>
             <th scope="col">4</th>
-            <td> <a href="subjects/math.php"> HTML </a> </td>
+            <td> <a href="assembly.php"> Assembly </a> </td>
+          </tr>
+          <tr>
+            <th scope="col">5</th>
+            <td> <a href="python.php"> Python </a> </td>
           </tr>
       </table>
       <br></br>
@@ -100,15 +104,15 @@
   </div>
 
 
-
-  <div class="row pt-2 text-light" id="footer" style="background-color: #f87ec9" >
+  <div class="row pt-2 text-light" id="footer" style="background-color: #12aff8" >
       <div class="col-md-8 offset-md-2">
         <div class="row">
-          <div class="col-md-12 mb-2"> <center> Allrights Resevered 2021 </center>
+          <div class="col-md-12 mb-2"> <center> Allrights Resevered 2021 </center> 
           </div>
         </div>
       </div>
-  </div> 
+  </div>
+
 
     <!-- Optional JavaScript; choose one of the two! -->
 

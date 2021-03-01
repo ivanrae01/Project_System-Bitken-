@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../nav.css" >
     <link rel="stylesheet" href="../assets/fontawesome/css/all.css" >
 
-    <title> Comment </title>
+    <title> Python Indentation, Variables, Comments </title>
   </head>
   <body>
 
@@ -41,52 +41,56 @@
                 <h4>Topics</h4>
             </div>
             <ul>
-                <li>
-                    <a href="../subjects/java1.php">
-                        <span> What is Java Language ? </span>
+            <li>
+                    <a href="../subjects/python1.php">
+                        <span> What is Python? </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java2.php">
-                        <span> Print Line </span>
+                    <a href="../subjects/python2.php">
+                        <span> What can Python do?</span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java3.php">
-                        <span> Comment </span>
+                    <a href="../subjects/python3.php">
+                        <span> Why Python? </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java4.php"">
-                        <span> Main() Method </span>
+                    <a href="../subjects/python4.php"">
+                        <span> Python Indentation, Variables, Comments </span>
                        
                     </a>
                 </li>
                 <li>
-                    <a href="../subjects/java5.php">
-                        <span> Classes </span>
+                    <a href="../subjects/python5.php">
+                        <span> Python Numbers </span>
                        
                     </a>
-                </li>
-                <li>
-                    <a href="../subjects/java6.php">
-                        <span> Compiling, Whitespace, Statements </span>
-                       
-                    </a>
-                </li>
+                </li>>
             </ul>
         </nav>
     <section class="section-1">
     <?php
-    echo nl2br (" Comment\n
-    -   Comments are bits of text that are ignored by the compiler. They are used to increase the readability of a program.\n
-    -   Single line comments are created by using //. \n
-    -   Multi-line comments are created by starting with /* and ending with */. \n \n  ");
-?>
-
+    echo nl2br("Python Indentation\n
+    \n
+    -   Indentation refers to the spaces at the beginning of a code line.\n
+    -   Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.\n
+    -   Python uses indentation to indicate a block of code.\n
+    \n
+    Python Variables\n
+    \n
+    -   Python has no command for declaring a variable.\n
+    -   A variable is created the moment you first assign a value to it.\n
+    \n
+    Comments\n
+    \n
+    -   Python has commenting capability for the purpose of in-code documentation.\n
+    -   Comments start with a #, and Python will render the rest of the line as a comment\n");
+    ?>
     </section>    
 </div>
 
@@ -106,7 +110,7 @@
           </div>
         </div>
       </div>
-    </div>  
+    </div> 
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -122,4 +126,3 @@
     -->
   </body>
 </html>
-
